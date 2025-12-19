@@ -1,6 +1,6 @@
 // Nastav cílové datum a čas (Praha)
 // Formát: new Date(rok, měsíc-1, den, hodina, minuta, sekunda)
-const target = new Date(2025, 11, 29, 18, 0, 0); // 29.12.2025 18:00
+const target = new Date(2025, 11, 29, 16, 4, 0); // 29.12.2025 16:04
 
 const dd = document.getElementById("dd");
 const hh = document.getElementById("hh");
@@ -39,3 +39,4 @@ function tick(){
 
 tick();
 setInterval(tick, 1000);
+
